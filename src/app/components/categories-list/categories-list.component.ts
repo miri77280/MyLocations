@@ -3,8 +3,8 @@ import { MatListOption } from '@angular/material/list';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import {map} from 'rxjs/operators';
-import { Category } from 'src/app/models/category';
-import { CategoriesService } from 'src/app/services/categories.service';
+import { Category } from '../../models/category';
+import { CategoriesService } from ../../services/categories.service';
 
 @Component({
   selector: 'app-categories-list',
