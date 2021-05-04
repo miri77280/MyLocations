@@ -4,7 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import {map} from 'rxjs/operators';
 import { Category } from '../../models/category';
-import { CategoriesService } from ../../services/categories.service';
+import { CategoriesService } from '../../services/categories.service';
 
 @Component({
   selector: 'app-categories-list',
