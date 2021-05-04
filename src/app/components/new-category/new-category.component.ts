@@ -1,6 +1,6 @@
 import { Component, OnInit, Output,EventEmitter, Input, SimpleChanges} from '@angular/core';
 import { Router } from '@angular/router';
-import { CategoriesService } from 'src/app/services/categories.service';
+import { CategoriesService } from '../../services/categories.service';
 
 enum Modes {
   Add,
