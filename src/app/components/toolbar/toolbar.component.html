@@ -1,0 +1,17 @@
+
+<mat-toolbar>
+    <span class="title">categories</span>
+    <div class="buttons">
+    <button class="btn" mat-icon-button  (click)="onClickEvent('0')">create new category </button>
+     
+      <button class="btn" mat-icon-button [disabled]="!isEnableCrudButtons" (click)="onClickEvent('1')"
+      >edit
+        </button>
+        <button class="btn" mat-icon-button [disabled]="!isEnableCrudButtons"
+        >view details
+          </button>
+        <button class="btn" mat-icon-button [disabled]="!isEnableCrudButtons" (click)="onClickEvent('2')"
+        >delete
+          </button>
+    </div>
+  </mat-toolbar>

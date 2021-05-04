@@ -1,0 +1,5 @@
+
+<app-toolbar [isEnableCrudButtons]=isEnableCrudButtons (isEditMode)="isEditModeHandler($event)" (mode)="handleMode($event)"></app-toolbar>
+ <app-categories-list [hidden]="isEditMode" (isCategorySelected)="isCategorySelectedHandler($event)"></app-categories-list>
+ <app-new-category [mode]="mode" [newCategory]="newCategory"  [hidden]="!isEditMode" (isEditMode)="isEditModeHandler($event)"></app-new-category>
+<!-- <router-outlet></router-outlet> -->
