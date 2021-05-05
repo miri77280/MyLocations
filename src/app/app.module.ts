@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CategoriesListComponent } from './components/categories-list/categories-list.component';
 //import { MatSelectionList } from '@angular/material/list';
 import {MatListModule} from '@angular/material/list';
-import {MatToolbarModule} from '@angular/material/toolBar'
+import {MatToolbarModule} from '@angular/material/toolbar'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { NewCategoryComponent } from './components/new-category/new-category.component';
